@@ -2,10 +2,11 @@
 
 # Atom for Web Developer
 
-Useful packages and settings for a better Workflow.
+Useful Packages and Configuration for a better Workflow
 
 ## Packages
 
+- [advanced-open-file](https://atom.io/packages/advanced-open-file) - Open and create files and directories easily. Type in a path (with autocomplete) and view directory contents.
 - [atom-beautify](https://atom.io/packages/atom-beautify) - Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C, CoffeeScript, TypeScript, Coldfusion, and SQL in Atom
 - [atom-ternjs](https://atom.io/packages/atom-ternjs) - JavaScript code intelligence for atom with Tern. Adds support for ES5, ES6 (JavaScript 2015), Node.js, jQuery & Angular. Extendable via plugins. Uses suggestion provider by autocomplete-plus.
 - [atom-typescript](https://atom.io/packages/atom-typescript) - The only TypeScript plugin you will ever need.
@@ -19,6 +20,7 @@ Useful packages and settings for a better Workflow.
 - [git-plus](https://atom.io/packages/git-plus) - Do git things without the terminal
 - [highlight-line](https://atom.io/packages/highlight-line) - Highlights the current line in the editor
 - [highlight-selected](https://atom.io/packages/highlight-selected) - Highlights the current word selected when double clicking
+- [imdone-atom](https://atom.io/packages/imdone-atom) - A hackable task-board for TODOs, FIXMEs, HACKs, etc in your code.
 - [javascript-snippets](https://atom.io/packages/javascript-snippets) - JavaScript & NodeJS Snippets for Atom
 - [json-colorer](https://atom.io/packages/json-colorer) - Get your JSON colored even if your theme doesn't do it
 - [jsonlint](https://atom.io/packages/jsonlint) - JSON Lint reports for your Atom editor
