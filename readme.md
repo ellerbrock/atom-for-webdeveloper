@@ -55,6 +55,12 @@ Useful Packages and Configuration for a better Workflow
 - [tidy-markdown](https://atom.io/packages/tidy-markdown) - Fix ugly markdown.
 - [zen](https://atom.io/packages/Zen) - Distraction free writing.
 
+## Useful Links for Packages Configuration
+
+- ESLint Configuartion: <http://rapilabs.github.io/eslintrc-generator/>
+- TernJS Manual: <http://ternjs.net/doc/manual.html>
+- Gist Setup for sync-settings: <https://github.com/atom-community/sync-settings>
+
 ## Disable some default Plugins (Tracking / Crash Reporting)
 
 - [metrics](https://atom.io/packages/metrics) - A package that reports usage information to Google Analytics.
