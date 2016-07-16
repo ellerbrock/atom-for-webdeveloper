@@ -24,6 +24,8 @@ Useful Packages and Configuration for a better Workflow
 - [javascript-snippets](https://atom.io/packages/javascript-snippets) - JavaScript & NodeJS Snippets for Atom
 - [json-colorer](https://atom.io/packages/json-colorer) - Get your JSON colored even if your theme doesn't do it
 - [jsonlint](https://atom.io/packages/jsonlint) - JSON Lint reports for your Atom editor
+- [keybinding-cheatsheet](https://atom.io/packages/keybinding-cheatsheet) - Quickly view and filter atom keybindings.
+- [language-nunjucks](https://github.com/alohaas/language-nunjucks) - Syntax highlighting for nunjucks templates in atom.
 - [linter-csslint](https://atom.io/packages/linter-csslint) - Lint CSS on the fly, using csslint
 - [linter-eslint](https://atom.io/packages/linter-eslint) - Lint JavaScript on the fly, using ESLint
 - [linter-less](https://atom.io/packages/linter-less) - Lint `less` on the fly, using less
@@ -44,6 +46,7 @@ Useful Packages and Configuration for a better Workflow
 - [platformio-ide-terminal](https://atom.io/packages/platformio-ide-terminal) - A terminal package for Atom, complete with themes, API and more for PlatformIO IDE. Fork of terminal-plus.
 - [pretty-json](https://atom.io/packages/pretty-json) - Format JSON
 - [project-manager](https://atom.io/packages/project-manager) - Project Manager for easy access and switching between projects in Atom.
+- [project-viewer](https://atom.io/packages/project-viewer) - Project viewer/manager that lets you add, edit and remove clients/groups/projects as well as switching between them.
 - [remote-ftp](https://atom.io/packages/Remote-FTP) - Enable browsing remote FTP/FTPS/SFTP just like the built-in Tree View. Requires a project.
 - [rest-client](https://atom.io/packages/rest-client) - A simple REST client for your favorite editor
 - [sass-autocompile](https://atom.io/packages/sass-autocompile) - Automatically compiles SASS files on save.
@@ -109,23 +112,37 @@ To solve this problem and define which one Atom should use you can can go to: `P
 
 ## Keybindings
 
-To change the keybindings you can go to Atom -> Keymaps or define your own Settings via `~/.atom/keymap.cson`:
+To overwrite the default keybindings or create a new once you can define them in `~/.atom/keymap.cson`:
 
 Keybinding Examples:
 
 ```
-# beautify
 'atom-text-editor':
+  # beautify
   'cmd-alt-n': 'atom-beautify:beautify-editor'
-
-# comment line
-'atom-text-editor':
+  # auto-ident line
+  'cmd-alt-m': 'editor:auto-indent'
+  # comment
   'cmd-alt-c': 'editor:toggle-line-comments'
-
-# markdown preview
-'atom-text-editor':
+  # markdown preview
   'ctrl-shift-M': 'markdown-preview-plus:toggle'
+  # zen mode
+  'ctrl-shift-Z': 'zen:toggle'
+  # linter toggle
+  'ctrl-shift-L': 'linter:togglePanel'
+
+# autocomplete
+'atom-text-editor.autocomplete-active':
+  'pageup': 'autocomplete-plus:page-up'
+  'pagedown': 'autocomplete-plus:page-down'
+
+# terminal
+'.terminal':
+  'cmd-c': 'core:copy'
+  'cmd-v': 'core:paste'
 ```
+
+In this article you can read more about [Keymaps In-Depth](http://flight-manual.atom.io/behind-atom/sections/keymaps-in-depth/).
 ### Contact / Social Media
 
 *Get the latest News about Web Development, Open Source, Tooling, Server & Security*
