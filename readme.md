@@ -55,11 +55,25 @@ Useful Packages and Configuration for a better Workflow
 - [tidy-markdown](https://atom.io/packages/tidy-markdown) - Fix ugly markdown.
 - [zen](https://atom.io/packages/Zen) - Distraction free writing.
 
+## Search by Downloads, Stars
+
+One thing i was missing and bothered me a lot was that i could not sort packages or themes by most downloaded or best stared. I really don't know why they don't bring this option but there is a way you still can get these infos:
+
+- Packages by Downloads: <https://atom.io/packages/list?direction=desc&sort=downloads>
+- Packages by Stars: <https://atom.io/packages/list?direction=desc&sort=stars>
+- Themes by Download: <https://atom.io/themes/list?direction=desc&sort=downloads>
+- Themes by Stars: <https://atom.io/themes/list?direction=desc&sort=stars>
+
 ## Useful Links for Packages Configuration
 
 - ESLint Configuartion: <http://rapilabs.github.io/eslintrc-generator/>
 - TernJS Manual: <http://ternjs.net/doc/manual.html>
 - Gist Setup for sync-settings: <https://github.com/atom-community/sync-settings>
+
+## Additional Setup for Plugins
+
+- [linter-tidy](https://atom.io/packages/linter-tidy) => `brew install tidy-html5`
+- [linter-shellcheck](https://atom.io/packages/linter-shellcheck) => `brew install shellcheck`
 
 ## Disable some default Plugins (Tracking / Crash Reporting)
 
