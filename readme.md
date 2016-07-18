@@ -37,6 +37,7 @@ Useful Packages and Configuration for a better Workflow
 - [local-server-express](https://atom.io/packages/local-server-express) - Serve current project via Express. `ctrl+alt+cmd+s` then serve current project and open browser.
 - [markdown-preview-plus](https://atom.io/packages/markdown-preview-plus) - Markdown Preview + Community Features
 - [markdown-scroll-sync](https://atom.io/packages/markdown-scroll-sync) - Auto-scroll markdown-preview tab to match markdown source
+- [markdown-toc](https://atom.io/packages/markdown-toc) - Generate table of contents from headlines
 - [markdown-writer](https://atom.io/packages/markdown-writer) - Make Atom a better Markdown editor and an easier static blogging tool.
 - [merge-conflicts](https://atom.io/packages/merge-conflicts) - Resolve git conflicts within Atom
 - [multi-cursor](https://atom.io/packages/multi-cursor) - Atom package to expand your current cursor.
@@ -53,6 +54,7 @@ Useful Packages and Configuration for a better Workflow
 - [sort-lines](https://atom.io/packages/sort-lines) - Sorts your lines. Never gets tired.
 - [sync-settings](https://atom.io/packages/sync-settings) - Synchronize settings, keymaps, user styles, init script, snippets and installed packages across Atom instances.
 - [tidy-markdown](https://atom.io/packages/tidy-markdown) - Fix ugly markdown.
+- [timecop](https://github.com/atom/timecop) - Show where Atom spends time
 - [zen](https://atom.io/packages/Zen) - Distraction free writing.
 
 ## Search by Downloads, Stars
@@ -82,8 +84,9 @@ One thing i was missing and bothered me a lot was that i could not sort packages
 
 ## Themes
 
+- [atom-material-ui](https://atom.io/themes/atom-material-ui) - A dark UI theme for Atom that follows Google's Material Design Guidelines
+- [atom-material-syntax](https://atom.io/themes/atom-material-syntax) - A dark syntax theme for Atom that uses Google's Material Design color palette
 - [chester-atom-syntax](https://atom.io/themes/chester-atom-syntax) - A pretty Atom syntax theme based on Lonely Planet colours
-- [material-ui](https://atom.io/themes/material-ui) - A minimal UI inspired by Google's Material design guide
 - [monokai-seti](https://atom.io/themes/monokai-seti) - A monokai theme for the seti ui
 - [seti-ui-beta](https://atom.io/themes/seti-ui-beta) - Beta release(s) for next version of Seti UI theme for Atom.
 
@@ -163,6 +166,77 @@ Keybinding Examples:
 ```
 
 In this article you can read more about [Keymaps In-Depth](http://flight-manual.atom.io/behind-atom/sections/keymaps-in-depth/).
+
+## Atom Hacking
+
+```
+  ___  _                    _   _            _    _             
+ / _ \| |                  | | | |          | |  (_)            
+/ /_\ \ |_ ___  _ __ ___   | |_| | __ _  ___| | ___ _ __   __ _
+|  _  | __/ _ \| '_ ` _ \  |  _  |/ _` |/ __| |/ / | '_ \ / _` |
+| | | | || (_) | | | | | | | | | | (_| | (__|   <| | | | | (_| |
+\_| |_/\__\___/|_| |_| |_| \_| |_/\__,_|\___|_|\_\_|_| |_|\__, |
+                                                           __/ |
+                                                          |___/
+```
+
+> If your not a developer its time to leave now :-)<br>
+> Lets do it - lets start hacking with Atom!
+
+## Package Development
+
+- [Atom Flight Manual](http://flight-manual.atom.io/) - Atom Documentation
+- [How To Develop Atom Packages](https://www.sitepoint.com/how-to-write-a-syntax-highlighting-package-for-atom/)
+- [apm](https://github.com/atom/apm) - Atoms Package Manager
+
+## Atom Start Parameter
+
+```
+Atom Editor v1.9.0-beta0
+
+Usage: atom [options] [path ...]
+
+One or more paths to files or folders may be specified. If there is an
+existing Atom window that contains all of the given folders, the paths
+will be opened in that window. Otherwise, they will be opened in a new
+window.
+
+Environment Variables:
+
+  ATOM_DEV_RESOURCE_PATH  The path from which Atom loads source code in dev mode.
+                          Defaults to `~/github/atom`.
+
+  ATOM_HOME               The root path for all configuration files and folders.
+                          Defaults to `~/.atom`.
+
+Optionen:
+  -1, --one                  This option is no longer supported.                           [boolean]
+  --include-deprecated-apis  This option is not currently supported.                       [boolean]
+  -d, --dev                  Run in development mode.                                      [boolean]
+  -f, --foreground           Keep the main process in the foreground.                      [boolean]
+  -h, --help                 Print this usage message.                                     [boolean]
+  -l, --log-file             Log all output to file.                                        [string]
+  -n, --new-window           Open a new window.                                            [boolean]
+  --profile-startup          Create a profile of the startup execution time.               [boolean]
+  -r, --resource-path        Set the path to the Atom source directory and enable dev-mode. [string]
+  --safe                     Do not load packages from ~/.atom/packages or ~/.atom/dev/packages.
+                                                                                           [boolean]
+  --portable                 Set portable mode. Copies the ~/.atom folder to be a sibling of the
+                             installed Atom location if a .atom folder is not already there.
+                                                                                           [boolean]
+  -t, --test                 Run the specified specs and exit with error code on failures. [boolean]
+  -m, --main-process         Run the specified specs in the main process.                  [boolean]
+  --timeout                  When in test mode, waits until the specified time (in minutes) and
+                             kills the process (exit code: 130).                            [string]
+  -v, --version              Print the version information.                                [boolean]
+  -w, --wait                 Wait for window to be closed before returning.                [boolean]
+  --clear-window-state       Delete all Atom environment state.                            [boolean]
+  -a, --add                  Open path as a new project in last used window.               [boolean]
+```
+
+I'm using Atom Beta and created an Shell Alias to quick start Atom with some Development Parameter:
+
+- `alias atomdev="atom-beta --save --dev --log-file=~/tmp/atom.log"`
 ### Contact / Social Media
 
 *Get the latest News about Web Development, Open Source, Tooling, Server & Security*
