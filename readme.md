@@ -6,9 +6,9 @@ Useful Packages and Configuration for a better Workflow
 
 ## Packages
 
-- [advanced-open-file](https://atom.io/packages/advanced-open-file) - Open and create files and directories easily. Type in a path (with autocomplete) and view directory contents.
-- [atom-beautify](https://atom.io/packages/atom-beautify) - Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C, CoffeeScript, TypeScript, Coldfusion, and SQL in Atom
-- [atom-ternjs](https://atom.io/packages/atom-ternjs) - JavaScript code intelligence for atom with Tern. Adds support for ES5, ES6 (JavaScript 2015), Node.js, jQuery & Angular. Extendable via plugins. Uses suggestion provider by autocomplete-plus.
+- [advanced-open-file](https://atom.io/packages/advanced-open-file) - Open and create files and directories easily.
+- [atom-beautify](https://atom.io/packages/atom-beautify) - Beautify HTML, CSS, JavaScript, PHP, TypeScript ...
+- [atom-ternjs](https://atom.io/packages/atom-ternjs) - Adds support for ES5, ES6 (JavaScript 2015), Node.js, jQuery & Angular.
 - [atom-typescript](https://atom.io/packages/atom-typescript) - The only TypeScript plugin you will ever need.
 - [auto-detect-indentation](https://atom.io/packages/auto-detect-indentation) - Automatically detect indentation of opened files.
 - [autoclose-html](https://atom.io/packages/autoclose-html) - Automates closing of HTML Tags
@@ -28,13 +28,14 @@ Useful Packages and Configuration for a better Workflow
 - [language-nunjucks](https://github.com/alohaas/language-nunjucks) - Syntax highlighting for nunjucks templates in atom.
 - [linter-csslint](https://atom.io/packages/linter-csslint) - Lint CSS on the fly, using csslint
 - [linter-eslint](https://atom.io/packages/linter-eslint) - Lint JavaScript on the fly, using ESLint
+- [linter-js-standard](https://atom.io/packages/linter-js-standard) - Linter plugin for JavaScript Standard Style
 - [linter-less](https://atom.io/packages/linter-less) - Lint `less` on the fly, using less
 - [linter-scss-lint](https://atom.io/packages/linter-scss-lint) - Lint SCSS on the fly, using scss-lint
 - [linter-shellcheck](https://atom.io/packages/linter-shellcheck) - Lint Bash on the fly, using shellcheck
 - [linter-tidy](https://atom.io/packages/linter-tidy) - Linter plugin for HTML, using tidy
 - [linter-tslint](https://atom.io/packages/linter-tslint) - Linter plugin for Typescript, using tslint
 - [linter](https://atom.io/packages/linter) - A Base Linter with Cow Powers
-- [local-server-express](https://atom.io/packages/local-server-express) - Serve current project via Express. `ctrl+alt+cmd+s` then serve current project and open browser.
+- [local-server-express](https://atom.io/packages/local-server-express) - serve the current project and open browser.
 - [markdown-preview-plus](https://atom.io/packages/markdown-preview-plus) - Markdown Preview + Community Features
 - [markdown-scroll-sync](https://atom.io/packages/markdown-scroll-sync) - Auto-scroll markdown-preview tab to match markdown source
 - [markdown-toc](https://atom.io/packages/markdown-toc) - Generate table of contents from headlines
@@ -44,7 +45,7 @@ Useful Packages and Configuration for a better Workflow
 - [node-debugger](https://atom.io/packages/node-debugger) - Debugger For Nodejs
 - [open-recent](https://atom.io/packages/open-recent) - Open recent files in the current window, and recent folders (optionally) in a new window.
 - [pigments](https://atom.io/packages/pigments) - A package to display colors in project and files.
-- [platformio-ide-terminal](https://atom.io/packages/platformio-ide-terminal) - A terminal package for Atom, complete with themes, API and more for PlatformIO IDE. Fork of terminal-plus.
+- [platformio-ide-terminal](https://atom.io/packages/platformio-ide-terminal) - A terminal package for Atom.
 - [pretty-json](https://atom.io/packages/pretty-json) - Format JSON
 - [project-manager](https://atom.io/packages/project-manager) - Project Manager for easy access and switching between projects in Atom.
 - [project-viewer](https://atom.io/packages/project-viewer) - Project viewer/manager that lets you add, edit and remove clients/groups/projects as well as switching between them.
@@ -52,14 +53,15 @@ Useful Packages and Configuration for a better Workflow
 - [rest-client](https://atom.io/packages/rest-client) - A simple REST client for your favorite editor
 - [sass-autocompile](https://atom.io/packages/sass-autocompile) - Automatically compiles SASS files on save.
 - [sort-lines](https://atom.io/packages/sort-lines) - Sorts your lines. Never gets tired.
-- [sync-settings](https://atom.io/packages/sync-settings) - Synchronize settings, keymaps, user styles, init script, snippets and installed packages across Atom instances.
+- [sync-settings](https://atom.io/packages/sync-settings) - Synchronize settings, keymaps, user styles, init script, snippets ...
 - [tidy-markdown](https://atom.io/packages/tidy-markdown) - Fix ugly markdown.
 - [timecop](https://github.com/atom/timecop) - Show where Atom spends time
 - [zen](https://atom.io/packages/Zen) - Distraction free writing.
 
 ## Search by Downloads, Stars
 
-One thing i was missing and bothered me a lot was that i could not sort packages or themes by most downloaded or best stared. I really don't know why they don't bring this option but there is a way you still can get these infos:
+One thing i was missing and bothered me a lot was that i could not sort packages or themes by most downloaded or best stared.<br>
+I don't know why they did't add this option but there is a way you still can get these infos:
 
 - Packages by Downloads: <https://atom.io/packages/list?direction=desc&sort=downloads>
 - Packages by Stars: <https://atom.io/packages/list?direction=desc&sort=stars>
@@ -76,6 +78,7 @@ One thing i was missing and bothered me a lot was that i could not sort packages
 
 - [linter-tidy](https://atom.io/packages/linter-tidy) => `brew install tidy-html5`
 - [linter-shellcheck](https://atom.io/packages/linter-shellcheck) => `brew install shellcheck`
+- [linter-js-standard](https://atom.io/packages/linter-js-standard) => `brew install -g eslint eslint-plugin-standard eslint-plugin-promise eslint-config-standard`
 
 ## Disable some default Plugins (Tracking / Crash Reporting)
 
@@ -183,10 +186,13 @@ In this article you can read more about [Keymaps In-Depth](http://flight-manual.
 > If your not a developer its time to leave now :-)<br>
 > Lets do it - lets start hacking with Atom!
 
-## Package Development
+## Developer Resources
 
 - [Atom Flight Manual](http://flight-manual.atom.io/) - Atom Documentation
+- [Chromium for Developers](https://www.chromium.org/developers) - Chromium Developer Docs
+
 - [How To Develop Atom Packages](https://www.sitepoint.com/how-to-write-a-syntax-highlighting-package-for-atom/)
+
 - [apm](https://github.com/atom/apm) - Atoms Package Manager
 
 ## Atom Start Parameter
