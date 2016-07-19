@@ -78,7 +78,15 @@ I don't know why they did't add this option but there is a way you still can get
 
 - [linter-tidy](https://atom.io/packages/linter-tidy) => `brew install tidy-html5`
 - [linter-shellcheck](https://atom.io/packages/linter-shellcheck) => `brew install shellcheck`
-- [linter-js-standard](https://atom.io/packages/linter-js-standard) => `brew install -g eslint eslint-plugin-standard eslint-plugin-promise eslint-config-standard`
+
+## Setup for JavaScript Standard Style
+
+- [JavaScript Standard](https://github.com/feross/standard) - Official Website
+- [atom-ternjs](https://atom.io/packages/atom-ternjs) - Adds support for ES5, ES6 (JavaScript 2015), Node.js, jQuery & Angular.
+- [linter-js-standard](https://atom.io/packages/linter-js-standard) - Linter plugin for JavaScript Standard Style
+- [standard-formatter](https://atom.io/packages/standard-formatter) - Format file contents using JavaScript Standard Style
+- [standardjs-snippets](https://atom.io/packages/standardjs-snippets) - A collection of JavaScript snippets for Atom, StandardJS Style
+- Install Dependencies: `brew install -g eslint eslint-plugin-standard eslint-plugin-promise eslint-config-standard`
 
 ## Disable some default Plugins (Tracking / Crash Reporting)
 
