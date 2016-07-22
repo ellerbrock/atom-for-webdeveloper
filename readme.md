@@ -9,6 +9,7 @@ Useful Packages and Configuration for a better Workflow
 -   [advanced-open-file](https://atom.io/packages/advanced-open-file) - Open and create files and directories easily.
 -   [atom-beautify](https://atom.io/packages/atom-beautify) - Beautify HTML, CSS, JavaScript, PHP, TypeScript ...
 -   [atom-css-comb](https://atom.io/packages/atom-css-comb) - CSScomb is a coding style formatter for CSS (LESS|SASS|SCSS).
+-   [atom-image-resize](https://atom.io/packages/atom-image-resize) - A resize tool for image files and Base64 encoded images.
 -   [atom-ternjs](https://atom.io/packages/atom-ternjs) - Adds support for ES5, ES6 (JavaScript 2015), Node.js, jQuery & Angular.
 -   [atom-typescript](https://atom.io/packages/atom-typescript) - The only TypeScript plugin you will ever need.
 -   [auto-detect-indentation](https://atom.io/packages/auto-detect-indentation) - Automatically detect indentation of opened files.
@@ -64,8 +65,7 @@ Useful Packages and Configuration for a better Workflow
 
 ## Search by Downloads, Stars
 
-One thing i was missing and bothered me a lot was that i could not sort packages or themes by most downloaded or best stared.  
-I don't know why they did't add this option but there is a way you still can get these infos:
+One thing i was missing and bothered me a lot was that i could not sort packages or themes by most stars / downloads. I don't know why they did't add this option but there is a way you still can get these infos:
 
 -   Packages by Downloads: <https://atom.io/packages/list?direction=desc&sort=downloads>
 -   Packages by Stars: <https://atom.io/packages/list?direction=desc&sort=stars>
