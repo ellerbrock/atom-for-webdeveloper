@@ -7,6 +7,7 @@ Useful Packages and Configuration for a better Workflow
 ## Packages
 
 -   [advanced-open-file](https://atom.io/packages/advanced-open-file) - Open and create files and directories easily.
+-   [ascii-art](https://atom.io/packages/ascii-art) - Show ascii string with ascii image
 -   [atom-beautify](https://atom.io/packages/atom-beautify) - Beautify HTML, CSS, JavaScript, PHP, TypeScript ...
 -   [atom-css-comb](https://atom.io/packages/atom-css-comb) - CSScomb is a coding style formatter for CSS (LESS|SASS|SCSS).
 -   [atom-image-resize](https://atom.io/packages/atom-image-resize) - A resize tool for image files and Base64 encoded images.
@@ -262,7 +263,8 @@ _Info: The Atom Hacking Part is still in development - new stuff coming soon ...
 
 I'm using Atom Beta and created an Shell Alias to quick start Atom with some Development Parameter:
 
--   `alias atomdev="atom-beta --save --dev --log-file=~/tmp/atom.log"`
+-   `alias atomdev="atom-beta --save --dev --log-file=~/tmp/atom.log"`  
+
 ### Contact / Social Media
 
 *Get the latest News about Web Development, Open Source, Tooling, Server & Security*
