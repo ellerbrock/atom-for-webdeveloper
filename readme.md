@@ -56,6 +56,7 @@ Useful Packages and Configuration for a better Workflow
 -   [remote-ftp](https://atom.io/packages/Remote-FTP) - Enable browsing remote FTP/FTPS/SFTP just like the built-in Tree View. Requires a project.
 -   [rest-client](https://atom.io/packages/rest-client) - A simple REST client for your favorite editor
 -   [sass-autocompile](https://atom.io/packages/sass-autocompile) - Automatically compiles SASS files on save.
+-   [script](https://atom.io/packages/script) - Run code in Atom.
 -   [sort-lines](https://atom.io/packages/sort-lines) - Sorts your lines. Never gets tired.
 -   [sync-settings](https://atom.io/packages/sync-settings) - Synchronize settings, keymaps, user styles, init script, snippets ...
 -   [tidy-markdown](https://atom.io/packages/tidy-markdown) - Fix ugly markdown.
@@ -205,8 +206,7 @@ In this article you can read more about [Keymaps In-Depth](http://flight-manual.
                                                                __/ |
                                                               |___/
 
-> If your not a developer its time to leave now :-)<br>
-> Lets do it - lets start hacking with Atom!
+_Info: The Atom Hacking Part is still in development - new stuff coming soon ..._
 
 ## Developer Resources
 
