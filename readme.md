@@ -18,6 +18,7 @@ Useful Packages and Configuration for a better Workflow
 -   [autocomplete-json](https://atom.io/packages/autocomplete-json) - Atom autocomplete+ plugin for semantic JSON completions
 -   [autocomplete-modules](https://atom.io/packages/autocomplete-modules) - Autocomplete for require/import statements
 -   [autoprefixer](https://atom.io/packages/autoprefixer) - Prefix CSS and SCSS
+-   [browser-plus](https://atom.io/packages/browser-plus) - Browser inside of Atom
 -   [color-picker](https://atom.io/packages/color-picker) - A Color Picker for Atom
 -   [editorconfig](https://atom.io/packages/editorconfig) - Helps developers maintain consistent coding styles between different editors
 -   [emmet](https://atom.io/packages/emmet) - Emmet plugin Atom editor
@@ -25,6 +26,7 @@ Useful Packages and Configuration for a better Workflow
 -   [git-plus](https://atom.io/packages/git-plus) - Do git things without the terminal
 -   [highlight-line](https://atom.io/packages/highlight-line) - Highlights the current line in the editor
 -   [highlight-selected](https://atom.io/packages/highlight-selected) - Highlights the current word selected when double clicking
+-   [html-entities](https://atom.io/packages/html-entities) - Encode and decode HTML entities
 -   [imdone-atom](https://atom.io/packages/imdone-atom) - A hackable task-board for TODOs, FIXMEs, HACKs, etc in your code.
 -   [javascript-snippets](https://atom.io/packages/javascript-snippets) - JavaScript & NodeJS Snippets for Atom
 -   [json-colorer](https://atom.io/packages/json-colorer) - Get your JSON colored even if your theme doesn't do it
@@ -48,17 +50,20 @@ Useful Packages and Configuration for a better Workflow
 -   [merge-conflicts](https://atom.io/packages/merge-conflicts) - Resolve git conflicts within Atom
 -   [multi-cursor](https://atom.io/packages/multi-cursor) - Atom package to expand your current cursor.
 -   [node-debugger](https://atom.io/packages/node-debugger) - Debugger For Nodejs
--   [open-recent](https://atom.io/packages/open-recent) - Open recent files in the current window, and recent folders (optionally) in a new window.
+-   [open-recent](https://atom.io/packages/open-recent) - Open recent files in the current window.
+-   [open-unsupported-files](https://atom.io/packages/open-unsupported-files) - open unsupported files with their default programm
 -   [pigments](https://atom.io/packages/pigments) - A package to display colors in project and files.
 -   [platformio-ide-terminal](https://atom.io/packages/platformio-ide-terminal) - A terminal package for Atom.
 -   [pretty-json](https://atom.io/packages/pretty-json) - Format JSON
 -   [project-manager](https://atom.io/packages/project-manager) - Project Manager for easy access and switching between projects in Atom.
--   [project-viewer](https://atom.io/packages/project-viewer) - Project viewer/manager that lets you add, edit and remove clients/groups/projects as well as switching between them.
--   [remote-ftp](https://atom.io/packages/Remote-FTP) - Enable browsing remote FTP/FTPS/SFTP just like the built-in Tree View. Requires a project.
+-   [project-viewer](https://atom.io/packages/project-viewer) - Project viewer/manager
+-   [remote-ftp](https://atom.io/packages/Remote-FTP) - Enable browsing remote FTP/FTPS/SFTP.
 -   [rest-client](https://atom.io/packages/rest-client) - A simple REST client for your favorite editor
 -   [sass-autocompile](https://atom.io/packages/sass-autocompile) - Automatically compiles SASS files on save.
 -   [script](https://atom.io/packages/script) - Run code in Atom.
 -   [sort-lines](https://atom.io/packages/sort-lines) - Sorts your lines. Never gets tired.
+-   [standard-formatter](https://atom.io/packages/standard-formatter) - Format file contents using JavaScript Standard Style
+-   [standardjs-snippets](https://atom.io/packages/standardjs-snippets) - A collection of JavaScript snippets for Atom, StandardJS Style
 -   [sync-settings](https://atom.io/packages/sync-settings) - Synchronize settings, keymaps, user styles, init script, snippets ...
 -   [tidy-markdown](https://atom.io/packages/tidy-markdown) - Fix ugly markdown.
 -   [timecop](https://github.com/atom/timecop) - Show where Atom spends time
@@ -264,7 +269,6 @@ _Info: The Atom Hacking Part is still in development - new stuff coming soon ...
 I'm using Atom Beta and created an Shell Alias to quick start Atom with some Development Parameter:
 
 -   `alias atomdev="atom-beta --save --dev --log-file=~/tmp/atom.log"`  
-
 ### Contact / Social Media
 
 *Get the latest News about Web Development, Open Source, Tooling, Server & Security*
