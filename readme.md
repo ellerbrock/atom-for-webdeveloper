@@ -50,6 +50,7 @@ Useful Packages and Configuration for a better Workflow
 -   [merge-conflicts](https://atom.io/packages/merge-conflicts) - Resolve git conflicts within Atom
 -   [multi-cursor](https://atom.io/packages/multi-cursor) - Atom package to expand your current cursor.
 -   [node-debugger](https://atom.io/packages/node-debugger) - Debugger For Nodejs
+-   [nuclide](https://github.com/facebook/nuclide) - Nuclide is a collection of features for Atom to provide IDE-like functionality.
 -   [open-recent](https://atom.io/packages/open-recent) - Open recent files in the current window.
 -   [open-unsupported-files](https://atom.io/packages/open-unsupported-files) - open unsupported files with their default programm
 -   [pigments](https://atom.io/packages/pigments) - A package to display colors in project and files.
@@ -57,6 +58,7 @@ Useful Packages and Configuration for a better Workflow
 -   [pretty-json](https://atom.io/packages/pretty-json) - Format JSON
 -   [project-manager](https://atom.io/packages/project-manager) - Project Manager for easy access and switching between projects in Atom.
 -   [project-viewer](https://atom.io/packages/project-viewer) - Project viewer/manager
+-   [react](https://atom.io/packages/react) - React.js (JSX) language support, indentation, snippets, auto completion, reformatting
 -   [remote-ftp](https://atom.io/packages/Remote-FTP) - Enable browsing remote FTP/FTPS/SFTP.
 -   [rest-client](https://atom.io/packages/rest-client) - A simple REST client for your favorite editor
 -   [sass-autocompile](https://atom.io/packages/sass-autocompile) - Automatically compiles SASS files on save.
