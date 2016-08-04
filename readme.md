@@ -59,6 +59,7 @@ Useful Packages and Configuration for a better Workflow
 -   [project-manager](https://atom.io/packages/project-manager) - Project Manager for easy access and switching between projects in Atom.
 -   [project-viewer](https://atom.io/packages/project-viewer) - Project viewer/manager
 -   [react](https://atom.io/packages/react) - React.js (JSX) language support, indentation, snippets, auto completion, reformatting
+-   [react](https://atom.io/packages/react) - React.js (JSX) language support, indentation, snippets, auto completion, reformatting
 -   [remote-ftp](https://atom.io/packages/Remote-FTP) - Enable browsing remote FTP/FTPS/SFTP.
 -   [rest-client](https://atom.io/packages/rest-client) - A simple REST client for your favorite editor
 -   [sass-autocompile](https://atom.io/packages/sass-autocompile) - Automatically compiles SASS files on save.
@@ -271,6 +272,7 @@ _Info: The Atom Hacking Part is still in development - new stuff coming soon ...
 I'm using Atom Beta and created an Shell Alias to quick start Atom with some Development Parameter:
 
 -   `alias atomdev="atom-beta --save --dev --log-file=~/tmp/atom.log"`  
+   
 ### Contact / Social Media
 
 *Get the latest News about Web Development, Open Source, Tooling, Server & Security*
