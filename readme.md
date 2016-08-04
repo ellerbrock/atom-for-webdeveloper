@@ -32,6 +32,7 @@ Useful Packages and Configuration for a better Workflow
 -   [json-colorer](https://atom.io/packages/json-colorer) - Get your JSON colored even if your theme doesn't do it
 -   [jsonlint](https://atom.io/packages/jsonlint) - JSON Lint reports for your Atom editor
 -   [keybinding-cheatsheet](https://atom.io/packages/keybinding-cheatsheet) - Quickly view and filter atom keybindings.
+-   [language-babel](https://atom.io/packages/language-babel) -  Babel JavaScript ES201x, React JSX & Flow Grammar & Transpiler
 -   [language-nunjucks](https://github.com/alohaas/language-nunjucks) - Syntax highlighting for nunjucks templates in atom.
 -   [linter-csslint](https://atom.io/packages/linter-csslint) - Lint CSS on the fly, using csslint
 -   [linter-eslint](https://atom.io/packages/linter-eslint) - Lint JavaScript on the fly, using ESLint
@@ -272,10 +273,10 @@ _Info: The Atom Hacking Part is still in development - new stuff coming soon ...
 I'm using Atom Beta and created an Shell Alias to quick start Atom with some Development Parameter:
 
 -   `alias atomdev="atom-beta --save --dev --log-file=~/tmp/atom.log"`  
-   
+
 ### Contact / Social Media
 
-*Get the latest News about Web Development, Open Source, Tooling, Server & Security*
+_Get the latest News about Web Development, Open Source, Tooling, Server & Security_
 
 [![Twitter](https://github.frapsoft.com/social/twitter.png)](https://twitter.com/frapsoft/)[![Facebook](https://github.frapsoft.com/social/facebook.png)](https://www.facebook.com/frapsoft/)[![Google+](https://github.frapsoft.com/social/google-plus.png)](https://plus.google.com/116540931335841862774)[![Gitter](https://github.frapsoft.com/social/gitter.png)](https://gitter.im/frapsoft/frapsoft/)[![Github](https://github.frapsoft.com/social/github.png)](https://github.com/ellerbrock/)
 
