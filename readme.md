@@ -274,6 +274,7 @@ I'm using Atom Beta and created an Shell Alias to quick start Atom with some Dev
 
 -   `alias atomdev="atom-beta --save --dev --log-file=~/tmp/atom.log"`  
 
+
 ### Contact / Social Media
 
 _Get the latest News about Web Development, Open Source, Tooling, Server & Security_
