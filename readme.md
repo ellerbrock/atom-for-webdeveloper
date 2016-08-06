@@ -1,6 +1,6 @@
 ![awesome atom](https://github.frapsoft.com/top/atom.png)
 
-# Atom for Web Developer
+# Atom for Web Developer [![Build Status](https://travis-ci.org/ellerbrock/atom-for-webdeveloper.svg?branch=master)](https://travis-ci.org/ellerbrock/atom-for-webdeveloper) [![OpenSource](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badge/) [![Gitter](https://badges.gitter.im/frapsoft/frapsoft.svg)](https://gitter.im/frapsoft/frapsoft/)
 
 Useful Packages and Configuration for a better Workflow
 
