@@ -168,6 +168,14 @@ rm -rf ~/Library/Caches/com.github.atom
 rm -rf ~/Library/Caches/Atom
 ```
 
+## Updating
+
+```bash
+apm clean
+apm update --no-confirm
+apm upgrade --no-confirm
+```
+
 ## Keybinding Resolver
 
 After installing new packages chances are good that some of them use the same keybindings.<br>
@@ -270,9 +278,9 @@ _Info: The Atom Hacking Part is still in development - new stuff coming soon ...
       --clear-window-state       Delete all Atom environment state.                            [boolean]
       -a, --add                  Open path as a new project in last used window.               [boolean]
 
-I'm using Atom Beta and created an Shell Alias to quick start Atom with some Development Parameter:
+Shell Alias to quick start Atom with some Development Parameter:
 
--   `alias atomdev="atom-beta --save --dev --log-file=~/tmp/atom.log"`  
+-   `alias atomdev="atom --save --dev --log-file=~/tmp/atom.log"`  
 
 
 ### Contact / Social Media
