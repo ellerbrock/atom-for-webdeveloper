@@ -9,6 +9,7 @@ Useful Packages and Configuration for a better Workflow
 -   [advanced-open-file](https://atom.io/packages/advanced-open-file) - Open and create files and directories easily.
 -   [ascii-art](https://atom.io/packages/ascii-art) - Show ascii string with ascii image
 -   [atom-beautify](https://atom.io/packages/atom-beautify) - Beautify HTML, CSS, JavaScript, PHP, TypeScript ...
+-   [atom-chai-snippets](https://atom.io/packages/atom-chai-snippets) - Full completions for the Chai Assertion Library
 -   [atom-css-comb](https://atom.io/packages/atom-css-comb) - CSScomb is a coding style formatter for CSS (LESS|SASS|SCSS).
 -   [atom-image-resize](https://atom.io/packages/atom-image-resize) - A resize tool for image files and Base64 encoded images.
 -   [atom-ternjs](https://atom.io/packages/atom-ternjs) - Adds support for ES5, ES6 (JavaScript 2015), Node.js, jQuery & Angular.
@@ -49,6 +50,8 @@ Useful Packages and Configuration for a better Workflow
 -   [markdown-toc](https://atom.io/packages/markdown-toc) - Generate table of contents from headlines
 -   [markdown-writer](https://atom.io/packages/markdown-writer) - Make Atom a better Markdown editor and an easier static blogging tool.
 -   [merge-conflicts](https://atom.io/packages/merge-conflicts) - Resolve git conflicts within Atom
+-   [mocha-test-runner](https://atom.io/packages/mocha-test-runner) - Run Mocha tests from within Atom
+-   [mocha](https://atom.io/packages/mocha) - Mocha integrated within atom
 -   [multi-cursor](https://atom.io/packages/multi-cursor) - Atom package to expand your current cursor.
 -   [node-debugger](https://atom.io/packages/node-debugger) - Debugger For Nodejs
 -   [nuclide](https://github.com/facebook/nuclide) - Nuclide is a collection of features for Atom to provide IDE-like functionality.
